@@ -10,8 +10,8 @@ class DBHelper {
         // const port = 1337; // Change this to your server port
         // return `http://localhost:${port}`;
         
-        const port = 48548;
-        return `https://git.heroku.com/mws-restaurant-review-app.git:${port}`;
+        // const port = 48548;
+        return `https://mws-restaurant-review-app.herokuapp.com`;
       }
 
     /**
