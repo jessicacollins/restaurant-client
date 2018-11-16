@@ -11,7 +11,7 @@ class DBHelper {
         // return `http://localhost:${port}`;
         
         // const port = 48548;
-        return `https://mws-restaurant-review-app.herokuapp.com`;
+        return `https://restaurant-review-app-server.herokuapp.com`;
       }
 
     /**
