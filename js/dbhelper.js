@@ -243,8 +243,10 @@ class DBHelper {
     static imageUrlForRestaurant(restaurant) {
       if (restaurant.photograph) {
         return (`/img/${restaurant.photograph}.jpg`);
+        console.log('Restaurant number: ' + restaurant.photograph);
       } else {
         return (`/img/restaurant.jpg`);
+        console.log('Photo not found');
       }
     }
 
